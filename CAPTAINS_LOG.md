@@ -12,3 +12,8 @@
 - Changed: Prepared the Ignite concept as its own clean GitHub and Vercel project, excluding local deployment metadata and generated clutter.
 - Why it matters: The client preview can be shared and deployed without exposing the wider Accounts workspace.
 - Felt: The prototype has its own launch bay now.
+
+## Stardate 2026-09-22
+- Changed: Published the complete Ignite concept to the new `ripplewave2025/ignite_shangrila` GitHub repository on `main` and verified the remote commit.
+- Why it matters: The prototype now has a clean, shareable source of truth ready for Vercel import.
+- Felt: First-stage ignition confirmed.
