@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#08090b">
+  <meta name="description" content="A concept website for Ignite by Shangri-La, Darjeeling — live music, DJ nights, guest list and private celebrations.">
+  <title>Ignite by Shangri-La — Darjeeling After Dark</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="prototype-ribbon" role="note">
+    <span>Saturday concept preview</span>
+    <span>Venue details require owner approval</span>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Ignite home">
+      <span class="wordmark__pulse" aria-hidden="true"></span>
+      <span class="wordmark__name">IGNITE</span>
+      <span class="wordmark__by">by Shangri-La</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+      <span class="sr-only">Open navigation</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#tonight">Tonight</a>
+      <a href="#experience">Experience</a>
+      <a href="#inner-circle">Inner Circle</a>
+      <a href="#private-events">Private events</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
+    <button class="header-cta" type="button" data-open-reserve>Reserve</button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__media" aria-describedby="concept-caption">
+        <img src="assets/ignite-concept-hero.png" alt="Concept visualization of an intimate hill-station music club with a DJ, warm timber and Darjeeling lights beyond the windows.">
+      </div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__beam" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="eyebrow hero__eyebrow">Chowrasta · Darjeeling</p>
+        <p class="hero__brand" aria-hidden="true">IGNITE</p>
+        <h1 id="hero-title">The hills change<br>after sunset.</h1>
+        <p class="hero__copy">Live sound, warm rooms and nights worth remembering.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#tonight">See what’s next</a>
+          <button class="button button--ghost" type="button" data-open-reserve>Join the guest list</button>
+        </div>
+      </div>
+
+      <div class="hero__footer">
+        <p id="concept-caption">Concept imagery — replace with an approved Ignite photograph after Saturday.</p>
+        <a href="#tonight">Scroll to enter <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="events section-pad" id="tonight" aria-labelledby="events-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Up next</p>
+        <h2 id="events-title">One night.<br>Three ways in.</h2>
+        <p>Every event should offer a simple guest list, a clear entry option and table reservations.</p>
+      </div>
+
+      <article class="event-feature reveal" aria-label="Saturday event placeholder">
+        <div class="event-date">
+          <span>Saturday</span>
+          <strong>Line-up pending</strong>
+        </div>
+        <div class="event-title">
+          <p class="event-kicker">DJ night · Demo event</p>
+          <h3>Saturday at Ignite</h3>
+          <p>Artist, start time, cover and entry rules to be confirmed with the venue.</p>
+        </div>
+        <button class="round-action" type="button" data-open-reserve aria-label="Open Saturday reservation options">↗</button>
+      </article>
+
+      <div class="entry-lanes reveal">
+        <article>
+          <span>01</span>
+          <h3>Guest list</h3>
+          <p>Names, group size and arrival window—without turning a one-night RSVP into marketing consent.</p>
+          <button type="button" data-open-reserve data-reserve-type="guest">Join the list</button>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Reserve a table</h3>
+          <p>Preferred zone, occasion and party size, followed by a human confirmation from the venue.</p>
+          <button type="button" data-open-reserve data-reserve-type="table">Request a table</button>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Private night</h3>
+          <p>Birthdays, group celebrations and after-parties routed into one structured enquiry.</p>
+          <a href="#private-events">Plan something</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience" id="experience" aria-labelledby="experience-title">
+      <div class="experience__sticky">
+        <p class="eyebrow">The experience</p>
+        <h2 id="experience-title">Recognition,<br>not surveillance.</h2>
+        <p>Remember only what a guest freely shares—and use it to make the next visit feel warmer.</p>
+      </div>
+
+      <div class="experience__steps">
+        <article class="reveal">
+          <span>Before</span>
+          <h3>Know why they’re coming.</h3>
+          <p>Music, celebration, preferred area, accessibility and party size arrive with the reservation.</p>
+        </article>
+        <article class="reveal">
+          <span>During</span>
+          <h3>Welcome them by name.</h3>
+          <p>A five-minute host brief recalls useful preferences without exposing spending or private notes.</p>
+        </article>
+        <article class="reveal">
+          <span>After</span>
+          <h3>Invite the right return.</h3>
+          <p>Thank them, resolve feedback first, then invite them only to events that match their interests.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="inner-circle section-pad" id="inner-circle" aria-labelledby="inner-title">
+      <div class="inner-circle__intro reveal">
+        <p class="eyebrow">Ignite Inner Circle</p>
+        <h2 id="inner-title">A guest list<br>with memory.</h2>
+        <p>Selected event invitations, early table openings, birthday recognition and music polls—always optional.</p>
+      </div>
+
+      <form class="preference-form reveal" id="inner-circle-form" novalidate>
+        <p class="form-status">Prototype only · Nothing entered here is stored or sent.</p>
+
+        <div class="form-row">
+          <label>
+            <span>Preferred name</span>
+            <input type="text" name="preferredName" autocomplete="name" placeholder="What should we call you?">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" placeholder="you@example.com">
+          </label>
+        </div>
+
+        <fieldset class="vibe-fieldset">
+          <legend>Your kind of night</legend>
+          <div class="choice-row">
+            <label><input type="checkbox" name="vibe" value="house"><span>House</span></label>
+            <label><input type="checkbox" name="vibe" value="bollywood"><span>Bollywood</span></label>
+            <label><input type="checkbox" name="vibe" value="hiphop"><span>Hip-hop</span></label>
+            <label><input type="checkbox" name="vibe" value="rock"><span>Rock</span></label>
+            <label><input type="checkbox" name="vibe" value="live"><span>Live</span></label>
+          </div>
+        </fieldset>
+
+        <label class="wide-field">
+          <span>Three artists or songs that make your night</span>
+          <input type="text" name="music" placeholder="Optional — the DJ will try when it fits the set">
+        </label>
+
+        <div class="consent-list">
+          <label>
+            <input type="checkbox" name="emailConsent">
+            <span>Email me selected music and event invitations, around 2–4 per month. Unsubscribe anytime.</span>
+          </label>
+          <label>
+            <input type="checkbox" name="personalizationConsent">
+            <span>Remember the preferences I choose to share so future visits can feel more personal.</span>
+          </label>
+        </div>
+
+        <div class="form-submit">
+          <button class="button button--primary" type="submit">Preview joining</button>
+          <p>Booking never depends on joining. WhatsApp permission would be collected separately.</p>
+        </div>
+      </form>
+    </section>
+
+    <section class="secret-sessions" aria-labelledby="secret-title">
+      <div class="secret-sessions__glow" aria-hidden="true"></div>
+      <div class="secret-sessions__content reveal">
+        <p class="eyebrow">Proposed series</p>
+        <h2 id="secret-title">Secret Sessions</h2>
+        <p>Small-format nights for the people who genuinely care about the sound—local DJs, listening sets and first access for Inner Circle guests.</p>
+        <a href="#inner-circle">Request an invitation <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="private-events section-pad" id="private-events" aria-labelledby="private-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Private events</p>
+        <h2 id="private-title">Bring the reason.<br>We’ll shape the night.</h2>
+        <p>Proposed formats for owner confirmation—clear packages convert better than “DM for details.”</p>
+      </div>
+
+      <div class="event-packages reveal">
+        <button type="button" data-open-reserve data-reserve-type="birthday">
+          <span>Birthday table</span>
+          <small>Priority enquiry · guest count · music mood</small>
+          <strong>01</strong>
+        </button>
+        <button type="button" data-open-reserve data-reserve-type="private">
+          <span>Private floor</span>
+          <small>Capacity, food, production and timing brief</small>
+          <strong>02</strong>
+        </button>
+        <button type="button" data-open-reserve data-reserve-type="afterparty">
+          <span>After-party</span>
+          <small>Wedding, corporate or large-group handoff</small>
+          <strong>03</strong>
+        </button>
+      </div>
+    </section>
+
+    <section class="visit section-pad" id="visit" aria-labelledby="visit-title">
+      <div class="visit__title reveal">
+        <p class="eyebrow">Find the room</p>
+        <h2 id="visit-title">Above Nehru Road.<br>Near Chowrasta.</h2>
+      </div>
+
+      <div class="visit__details reveal">
+        <dl>
+          <div>
+            <dt>Address</dt>
+            <dd>Nehru Road, Chowrasta, Chauk Bazaar<br>Darjeeling, West Bengal 734101</dd>
+          </div>
+          <div>
+            <dt>Hours</dt>
+            <dd><span class="pending">Confirm Saturday</span></dd>
+          </div>
+          <div>
+            <dt>Reservations</dt>
+            <dd><span class="pending">One official number to confirm</span></dd>
+          </div>
+        </dl>
+        <a class="button button--ghost" href="https://www.google.com/maps/search/?api=1&query=Ignite+By+Shangri-La+Darjeeling" target="_blank" rel="noreferrer">Open map</a>
+      </div>
+
+      <div class="visit__faq reveal">
+        <details>
+          <summary>Entry, age and ID rules <span>+</span></summary>
+          <p>To be confirmed with management and then displayed here before reservations open.</p>
+        </details>
+        <details>
+          <summary>Cover charge and table policy <span>+</span></summary>
+          <p>Each event page should state the exact cover, arrival cutoff, deposit and table-release rule.</p>
+        </details>
+        <details>
+          <summary>Parking and arrival <span>+</span></summary>
+          <p>Saturday’s walk-through will confirm the best taxi landmark and late-evening arrival guidance.</p>
+        </details>
+        <details>
+          <summary>Accessibility and guest safety <span>+</span></summary>
+          <p>Access, assistance and safety information must be verified directly with the venue before publishing.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wordmark wordmark--footer">
+      <span class="wordmark__pulse" aria-hidden="true"></span>
+      <span class="wordmark__name">IGNITE</span>
+      <span class="wordmark__by">by Shangri-La</span>
+    </div>
+    <p>Live music · DJ nights · Darjeeling</p>
+    <nav aria-label="Footer navigation">
+      <a href="#inner-circle">Inner Circle</a>
+      <a href="#private-events">Private events</a>
+      <a href="#visit">Visit</a>
+      <a href="privacy.html">Privacy concept</a>
+    </nav>
+    <small>Concept built by NexGen LearnAI · Not yet an official Ignite website</small>
+  </footer>
+
+  <dialog class="reserve-dialog" id="reserve-dialog" aria-labelledby="reserve-title">
+    <button class="dialog-close" type="button" data-close-reserve aria-label="Close reservation form">×</button>
+    <p class="eyebrow">Request, then confirm</p>
+    <h2 id="reserve-title">Plan your night.</h2>
+    <p class="dialog-intro">This prototype demonstrates the flow. It does not send or store information.</p>
+
+    <form id="reserve-form" novalidate>
+      <div class="reserve-type" role="group" aria-label="Reservation type">
+        <label><input type="radio" name="reserveType" value="guest" checked><span>Guest list</span></label>
+        <label><input type="radio" name="reserveType" value="table"><span>Table</span></label>
+        <label><input type="radio" name="reserveType" value="private"><span>Private event</span></label>
+      </div>
+
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" required autocomplete="name" placeholder="Your name">
+      </label>
+      <div class="form-row">
+        <label>
+          <span>Mobile</span>
+          <input type="tel" name="mobile" required autocomplete="tel" placeholder="For this reservation">
+        </label>
+        <label>
+          <span>Party size</span>
+          <input type="number" name="partySize" min="1" max="50" value="2">
+        </label>
+      </div>
+      <div class="form-row">
+        <label>
+          <span>Date</span>
+          <input type="date" name="date" required>
+        </label>
+        <label>
+          <span>Occasion</span>
+          <select name="occasion">
+            <option value="">Just a night out</option>
+            <option>Birthday</option>
+            <option>Anniversary</option>
+            <option>Private celebration</option>
+            <option>Corporate group</option>
+          </select>
+        </label>
+      </div>
+      <label class="service-consent">
+        <input type="checkbox" name="serviceConsent" required>
+        <span>Use my mobile number only to confirm and manage this reservation.</span>
+      </label>
+      <button class="button button--primary" type="submit">Preview request</button>
+    </form>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite" aria-hidden="true">
+    <strong>Prototype complete.</strong>
+    <span>In the live version, the venue would confirm this request.</span>
+  </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NightClub",
+    "name": "Ignite by Shangri-La",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Nehru Road, Chowrasta, Chauk Bazaar",
+      "addressLocality": "Darjeeling",
+      "addressRegion": "West Bengal",
+      "postalCode": "734101",
+      "addressCountry": "IN"
+    },
+    "sameAs": ["https://www.instagram.com/ignite_by_shangrila/"]
+  }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
